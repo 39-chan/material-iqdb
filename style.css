@@ -1,0 +1,84 @@
+html
+{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body
+{
+	background-color: #1D1F21;
+}
+.mdl-layout__header-row
+{
+	background-color: #282A2E;
+}
+.mdl-button--add-account
+{
+	position: fixed;
+	display: block;
+	right: 0;
+	bottom: 0;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	z-index: 900;
+}
+.mdl-button--file input
+{
+	cursor: pointer;
+	height: 100%;
+	right: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 300px;
+	z-index: 4;
+}
+.mdl-textfield--file .mdl-textfield__input
+{
+	box-sizing: border-box;
+	width: calc(100% - 32px);
+}
+.mdl-textfield--file .mdl-button--file
+{
+	right: 0;
+}
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3F51B5;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.demo-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+.demo-content {
+	background-color: #282A2E;
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+.demo-content h3 {
+  margin-top: 48px;
+}
