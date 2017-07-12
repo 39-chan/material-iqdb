@@ -73,7 +73,7 @@ body
 .demo-content {
 	background-color: #282A2E;
   border-radius: 2px;
-  padding: 80px 56px;
+  padding: 40px 56px;
   margin-bottom: 80px;
 }
 .demo-layout.is-small-screen .demo-content {
